@@ -3,19 +3,19 @@
  - We define three fixtures: 'index.fixtures.ts and `auth.fixtures.ts` and `test-data.fixtures.ts`
 
  **auth.fixtures.ts**:<br/> 
-   • Defines page-related fixtures (`loginPage`, `loggedInPage`)<br/> 
-   • Handles authentication state<br/> 
-   • Manages cleanup after tests<br/> 
+   &nbsp;• Defines page-related fixtures (`loginPage`, `loggedInPage`)<br/> 
+   &nbsp;• Handles authentication state<br/> 
+   &nbsp;• Manages cleanup after tests<br/> 
 
 **test-data.fixtures.ts**:<br/> 
-   • Contains all test data<br/> 
-   • Makes test data reusable<br/> 
-   • Easy to maintain test data in one place<br/> 
+   &nbsp;• Contains all test data<br/> 
+   &nbsp;• Makes test data reusable<br/> 
+   &nbsp;• Easy to maintain test data in one place<br/> 
 
 **index.ts**:<br/> 
-   • Central point for importing fixtures<br/> 
-   • Makes test files cleaner<br/> 
-   • Re-exports all necessary test components<br/> 
+   &nbsp;• Central point for importing fixtures<br/> 
+   &nbsp;• Makes test files cleaner<br/> 
+   &nbsp;• Re-exports all necessary test components<br/> 
 
 𝟮. 𝗕𝗲𝗻𝗲𝗳𝗶𝘁𝘀:
  - Reduces code duplication
@@ -28,13 +28,13 @@
  - Each fixture has clear setup and cleanup phases
  - Fixtures can depend on other fixtures
 
-The purpose of index.ts is to:
+The purpose of index.ts is to:<br/> 
 
-• Import and re-export all fixtures and utilities
-• Provide a single entry point for importing test dependencies
-• Make test files cleaner with consolidated imports
+• Import and re-export all fixtures and utilities<br/> 
+• Provide a single entry point for importing test dependencies<br/> 
+• Make test files cleaner with consolidated imports<br/> 
 
-Without index.ts, you would need multiple imports in each test file.
+Without index.ts, you would need multiple imports in each test file.<br/> 
  
  🎭 Why I Prefer Playwright Fixtures Over Storage State for E2E Testing
 
