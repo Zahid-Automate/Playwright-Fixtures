@@ -16,3 +16,6 @@ After extensive testing, here's why fixtures are my go-to choice:
 - Shared testing utilities
 
 Real talk: Storage state has its place, but fixtures give you that extra control and flexibility that modern web testing demands.
+
+## Video grab showing test results
+[screen-capture (17).webm](https://github.com/user-attachments/assets/5c71c1a1-e7d3-4c96-87b0-605fc9f501bc)
